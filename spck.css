@@ -1,0 +1,66 @@
+#product{
+    display: grid;
+    
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin: 50px 10%;
+  }
+  
+  .card{
+    padding: 20px 20px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 5px rgba(172, 170, 170, 0.651),
+     0 0 10px  rgba(172, 170, 170, 0.651),
+     0 0 20px  rgba(172, 170, 170, 0.651),
+     0 0 50px  rgba(172, 170, 170, 0.651);
+     transform: translateY(0.1in);
+     transition: transform 0.7s;
+  }
+  
+  .card:hover{
+    transform: translateY(-0.1in);
+    transition: transform 0.7s;
+    box-shadow: 0 0 5px rgba(231, 129, 129, 0.411),
+    0 0 10px rgba(231, 129, 129, 0.411),
+    0 0 20px rgba(231, 129, 129, 0.411),
+    0 0 50px rgba(231, 129, 129, 0.411);
+  }
+  
+  
+  img{
+    width: 5%;
+    object-fit: contain;
+  }
+  
+  .btn1:hover{
+    box-shadow: 0 0 5px rgb(106, 240, 240),
+    0 0 5px rgb(106, 240, 240),
+    0 0 5px rgb(106, 240, 240),
+    0 0 5px rgb(106, 240, 240);
+  }
+  
+  .main-content{
+    color: gray;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .main-content a{
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+  }
+  
+  .main-content a:hover{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: solid 2px black;
+  }
